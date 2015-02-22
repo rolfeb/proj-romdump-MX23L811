@@ -130,7 +130,7 @@ get_D7_D0(void) { return PORTA_IN; }
 int
 main(void)
 {
-    const uint32_t  address_size    = (uint32_t)1 << 19;
+    const uint32_t  address_size    = (uint32_t)1 << 20;
     const uint32_t  num_rows        = address_size >> 4;    /* 16 words */
     uint32_t        row;
     uint32_t        addr;
